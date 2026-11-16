@@ -1,7 +1,27 @@
-# Media and Typography Optimization Build
-CSS and HTML for Module 4: Deliverable: Media and Typography Optimization Build
+# Accessibility Conformance and Inclusive Quality Build
+CSS and HTML for Module 5: Deliverable: Accessibility Conformance and Inclusive Quality Build
 
-# Asset Inventory
+# Test Scope
+I tested all four of my pages: my home page, my work page, my resume page, and my contact page. I tested my home page because it is the first thing that my users will see, and I want them to be able to understand what this website is about right away. I tested my work page and my resume page because they involve grid displays that present important information. Users need to be able to see and comprehend the images on my work page, and the information on my resume page. I tested my contact page because I wanted to ensure that potential clients and / or employers would be able to reach me. This page features two important links, and I want to make sure that these links display correctly and do not break.
+
+# Semantic Structure
+Native HTML: Tested using WC3 Validation
+  ## Findings:
+  Index page: "Section Lacks Heading" warnings for lines 25, 26, and 35.
+  Spelling errors across all pages due to filler text, which will be replaced.
+
+Page titles: 
+
+Landmarks: 
+
+Headings: 
+
+links, 
+
+buttons, 
+
+and accessible names are checked and remediated where needed.
+
 Images (JPGS & PNGS) (License: Owned by me)
 
 Archie McPhee Poster: images/archie-ad-250, images/archie-ad-400
