@@ -124,14 +124,16 @@ I ran Silktide's alt text check, and then manually reviewed my HTML to make sure
  + Resume Page: N / A.
  + Contact Page: My SVGs were not labelled (The screen reader skips them) They are decorative images, and do not need alt text.
 
-## Fallback links: 
+## Fallback links: Manually tested.
+The only fallback links I have are font fallbacks. I tested my font fallbacks by deliberately changing my font rules so that my "font-family" property could not identify my chosen font and was forced to default to the fallback.
 ### Findings:
-  Index Page: N / A.
-  Work Page: N / A.
-  Resume Page: None.
-  Contact Page: None.
+ + Index Page: None.
+ + Work Page: None.
+ + Resume Page: None.
+ + Contact Page: None.
 
-# Screen reader or accessibility-tree sampling: sample at least one page or component and document what was checked and what the limits of that sample are.
+# Screen reader or accessibility-tree sampling: 
+sample at least one page or component and document what was checked and what the limits of that sample are.
 
 # Remediation log: 
 See .txt file.
