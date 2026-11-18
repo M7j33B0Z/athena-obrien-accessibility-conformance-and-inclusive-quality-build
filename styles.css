@@ -2,7 +2,7 @@
 
 /* Imported Fonts */
 @font-face {
-    font-family: "Gravitas One";
+    font-family:"Gravitas One";
     src: url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Gravitas+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 }
 
@@ -39,7 +39,7 @@
         --heading-one: "Gravitas One", serif; 
         --h1-weight: 400;
         
-        --subhead-and-body: "helvetica-neue-lt-pro", serif;
+        --subhead-and-body: "helvetica-neue-lt-pro", sans-serif;
    
         --h2-weight: 700;
         
