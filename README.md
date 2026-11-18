@@ -127,12 +127,10 @@ I ran Silktide's alt text check, and then manually reviewed my HTML to make sure
 ## Fallback links: Manually tested.
 The only fallback links I have are font fallbacks. I tested my font fallbacks by deliberately changing my font rules so that my "font-family" property could not identify my chosen font and was forced to default to the fallback.
 ### Findings:
- + Index Page: None.
- + Work Page: None.
- + Resume Page: None.
- + Contact Page: None.
+ + While I was performing this test, I realized that, while my fallbacks are working, there is something wrong with my @font-face property, because my fallback fonts are appearing instead of my chosen fonts      across all four pages. 
 
 # Screen reader or accessibility-tree sampling: 
+I performed screen reader sampling on my Work Page, because I want all users to be able to understand and comprehend my work. I used Silktide to listen to the pages captions. 
 sample at least one page or component and document what was checked and what the limits of that sample are.
 
 # Remediation log: 
