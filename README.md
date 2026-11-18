@@ -93,9 +93,6 @@ Keyboard traps: Manually tested.
 ### Findings:
    + All four pages had a contrast error, stemming from my selected green accent color.
 
-# Forms and tables
-N/A (This website contains no forms and no tables.
-
 # Media, motion, and alternatives: 
 Image purpose:
   ## Findings:
@@ -115,35 +112,7 @@ SVG labels:
   Resume Page: None.
   Contact Page: None.
 
-Captions:
- ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
-
-Transcripts:
- ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
-
-Embed titles:
- ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
-
 Fallback links:
- ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
-
-Reduced-motion behavior:
  ## Findings:
   Index Page: None.
   Work Page: None.
