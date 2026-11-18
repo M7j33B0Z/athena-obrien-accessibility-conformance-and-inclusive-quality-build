@@ -81,6 +81,7 @@ Tested current page states by clicking between pages, and making sure that each 
   Current page states are working correctly. No skip links are included in this website.
 
 ## Keyboard traps: Manually tested.
+Navigated the pages in Firefox and Chrome with tab, shift + tab, and enter.
 ### Findings:
   + Index Page: None.
   + Work Page: None.
@@ -88,10 +89,15 @@ Tested current page states by clicking between pages, and making sure that each 
   + Contact Page: None.
 
 ## Zoom / Reflow and Text Spacing: Manually tested.
+Tested all four pages at 250px, 750px, and 1080px breakponts and up to 200% Zoom. I performed these tests in two different browsers (Firefox and Chrome) and tested all available screen sizes in Silktide,     to get a full picture of how my website functions.
 ### Findings:
-  + Tested all four pages at 250px, 750px, and 1080px breakponts and up to 200% Zoom. I performed these tests in two different browsers (Firefox and Chrome) and tested all available screen sizes in Silktide,     to get a full picture of how my website functions.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
 
-## Contrast: Used Silktide Accessibility Checker
+## Contrast: Used Silktide Accessibility Checker.
+Ran an Accessibility check in Silktide.
 ### Findings:
    + All four pages had a contrast error, stemming from my selected green accent color.
 
