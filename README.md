@@ -7,29 +7,29 @@ I tested all four of my pages: my home page, my work page, my resume page, and m
 # Semantic Structure
 Native HTML: Tested using WC3 Validation
   ## Findings:
-  Index page: "Section Lacks Heading" warnings for lines 25, 26, and 35.
-  Spelling errors across all pages due to filler text, which will be replaced.
+   + Index page: "Section Lacks Heading" warnings for lines 25, 26, and 35.
+   + Spelling errors across all pages due to filler text, which will be replaced.
 
 Page Titles: Manual review
   ## Findings: 
-  Index Page: None. (In final version, title should be changed to title of website.)
-  Work Page: None.
-  Resume Page: None. 
-  Contact Page: None.
+   + Index Page: None. (In final version, title should be changed to title of website.)
+   + Work Page: None.
+   + Resume Page: None. 
+   + Contact Page: None.
 
 Landmarks: Tested using Silktide
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
 
 Headings: Manually tested. (WC3 Validation Source Viewing)
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
   
 Links: Manually tested. 
   ## Findings: 
@@ -47,49 +47,48 @@ Buttons: Manually tested.
 
 Accessible Names: Tested in Silktide.
   ## Findings:
-    Index Page: None.
-    Work Page: None.
-    Resume Page: None.
-    Contact Page: None.
+   + Index Page: None.
+   + Work Page: None.
+   + Resume Page: None.
+   + Contact Page: None.
 
 # Keyboard and Focus:
-Keyboard focus:
+Keyboard focus: Manually tested.
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
 
-Focus order:
+Focus order: Tested in Silktide.
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
 
-Focus visibility:
+Focus visibility: Manually tested.
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
 
-
-Skip links/current page states
+Skip links/current page states: Manually tested.
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  Current page states are working correctly. No skip links are included in this website.
 
-Keyboard traps
+Keyboard traps: Manually tested.
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
 
-# Zoom, reflow, text spacing, and contrast: 
+Zoom / Reflow: Manually tested.
+  ## Findings:
+  
+text spacing, and contrast: 
 evidence shows content remains usable at required responsive/zoom conditions and meaningful states meet contrast expectations.
 
 # Forms and tables
