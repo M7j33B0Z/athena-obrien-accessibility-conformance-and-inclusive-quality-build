@@ -43,12 +43,12 @@ Opened links in two browsers (Chrome and Firefox) to make sure that they opened 
    + Contact Page: Must Replace Email Link with actual Mailto Link instead of website link.
 
 ## Accessible Names: Tested using WC3 Validator and Silktide
-Used WC3 Validator to scan for errors, and ran an Accessibility Check in SilkTide to catch labelling issues.
+Used WC3 Validator to scan for errors, and ran an Accessibility Check in Silktide to catch labeling issues. I used the screen reading feature to see how the content of the website flowed.
 ### Findings:
-   + Index Page: None.
-   + Work Page: None.
-   + Resume Page: None.
-   + Contact Page: None.
+   + Index Page: Nav lacks accessible text.
+   + Work Page: Nav lacks accessible text.
+   + Resume Page: Nav lacks accessible text.
+   + Contact Page: Nav lacks accessible text.
 
 # Keyboard and Focus
 ### Keyboard focus: Manually tested.
@@ -89,7 +89,7 @@ Navigated the pages in Firefox and Chrome with tab, shift + tab, and enter.
   + Contact Page: None.
 
 ## Zoom / Reflow and Text Spacing: Manually tested.
-Tested all four pages at 250px, 750px, and 1080px breakponts and up to 200% Zoom. I performed these tests in two different browsers (Firefox and Chrome) and tested all available screen sizes in Silktide,     to get a full picture of how my website functions.
+Tested all four pages at 250px, 750px, and 1080px breakpoints and up to 200% Zoom. I performed these tests in two different browsers (Firefox and Chrome) and tested all available screen sizes in Silktide,     to get a full picture of how my website functions.
 ### Findings:
   + Index Page: None.
   + Work Page: None.
@@ -104,26 +104,30 @@ Ran an Accessibility check in Silktide.
 # Media, motion, and alternatives: 
 ## Image purpose:
 ### Findings:
-  250px, 750px, and 1080px
+  + Index Page: None.
+  + Work Page: None.
+  + Resume Page: None.
+  + Contact Page: None.
   
-## Alt text:
+## Alt text: Checked alt text in Silktide
+I ran Silktide's alt text check, and then manually reviewed my HTML to make sure that all of my images had alt text.
 ### Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+ + Index Page: None.
+ + Work Page: None.
+ + Resume Page: None.
+ + Contact Page: None.
   
-## SVG labels: 
+## SVG labels: Used the Silktide screen reader feature to see if my SVGs were labelled in any way.
 ### Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+ + Index Page: N / A.
+ + Work Page: N / A.
+ + Resume Page: N / A.
+ + Contact Page: My SVGs were not labelled (The screen reader skips them) They are decorative images, and do not need alt text.
 
-## Fallback links:
+## Fallback links: 
 ### Findings:
-  Index Page: None.
-  Work Page: None.
+  Index Page: N / A.
+  Work Page: N / A.
   Resume Page: None.
   Contact Page: None.
 
