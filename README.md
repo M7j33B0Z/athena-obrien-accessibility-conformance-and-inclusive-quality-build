@@ -33,17 +33,17 @@ Headings: Manually tested. (WC3 Validation Source Viewing)
   
 Links: Manually tested. 
   ## Findings: 
-  Index Page: None.
-  Work Page: Must add links to images so that they open in a new tab.
-  Resume Page: None.
-  Contact Page: Must Replace Email Link with actual Mailto Link instead of website link.
+   + Index Page: None.
+   + Work Page: Must add links to images so that they open in a new tab.
+   + Resume Page: None.
+   + Contact Page: Must Replace Email Link with actual Mailto Link instead of website link.
 
 Buttons: Manually tested.
   ## Findings:
-  Index Page: None.
-  Work Page: None.
-  Resume Page: None.
-  Contact Page: None.
+   + Index Page: None.
+   + Work Page: None.
+   + Resume Page: None.
+   + Contact Page: None.
 
 Accessible Names: Tested in Silktide.
   ## Findings:
