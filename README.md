@@ -2,7 +2,7 @@
 CSS and HTML for Module 5: Deliverable: Accessibility Conformance and Inclusive Quality Build
 
 # Test Scope
-I tested all four of my pages: my home page, my work page, my resume page, and my contact page. I tested my home page because it is the first thing that my users will see, and I want them to be able to understand what this website is about right away. I tested my work page and my resume page because they involve grid displays that present important information. Users need to be able to see and comprehend the images on my work page, and the information on my resume page. I tested my contact page because I wanted to ensure that potential clients and / or employers would be able to reach me. This page features two important links, and I want to make sure that these links display correctly and do not break.
+I tested all four of my pages: my home page, my work page, my resume page, and my contact page. I tested my home page because it is the first thing that my users will see, and I want them to be able to understand what this website is about right away. I tested my work page and my resume page because they involve grid displays that present important information. Users need to be able to see and comprehend the images on my work page, and the information on my resume page. I tested my contact page because I wanted to ensure that potential clients and / or employers would be able to reach me. This page features two important links, and I want to make sure that these links display correctly and do not break. The following tests were not completed, because they do no apply to my website: Forms and tables: labels, instructions, errors, required states, captions, headers, scope, and responsive table strategies; captions, transcripts, embed titles, and reduced-motion behavior.
 
 # Semantic Structure
 ## Native HTML: Tested using WC3 Validation
@@ -126,7 +126,7 @@ I ran Silktide's alt text check, and then manually reviewed my HTML to make sure
  + Index Page: N / A.
  + Work Page: N / A.
  + Resume Page: N / A.
- + Contact Page: My SVGs were not labelled (The screen reader skips them) They are decorative images, and do not need alt text.
+ + Contact Page: My SVGs were not labelled (The screen reader skips them). They are decorative images, and do not need alt text.
 
 ## Fallback links: Manually tested.
 The only fallback links I have are font fallbacks. I tested my font fallbacks by deliberately changing my font rules so that my "font-family" property could not identify my chosen font and was forced to default to the fallback.
@@ -142,10 +142,18 @@ The limits of this sample is that my figcaptions currently contain filler text, 
 See .txt file.
 
 # Conformance summary: 
-The following fields appear to conform:
+## The following fields appear to conform
 
-summarize what appears to conform, what was fixed, what remains limited, and what should be checked again before final release.
+Native HTML on the Work Page, page titles across all four pages, landmarks, headings, links, keyboard and focus, focus order, focus visibility, skip links, current page states, keyboard traps, zoom/reflow and text spacing, image purpose, alt text, SVG labels, screen reader.
+
+## The following fields were fixed
+Native HTML on the Index Page ("Section Lacks Heading" warnings for lines 25, 26, and 35.); color contrast error across all four pages.
+
+## The following fields remain limited
+Native HTML on the Resume Page ("Section Lacks Heading" warnings for lines 23 and 24.), and the Contact Page ("Section Lacks Heading" warnings for lines 23, 24, 26, and 36.); spelling errors from filler text; accessible text in the nav on all four pages; fallback links.
+
+## The following fields should be checked again before release
+Native HTML (spelling errors across all pages due to filler text, which will be replaced.); Index Page title, which must match website name; image links, when they are added; email link when it is replaced; fallback links (once font display error is addressed); 
 
 # AI Disclosure:
 I did not use AI to complete this assignment.
-
