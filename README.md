@@ -101,9 +101,9 @@ Ran an Accessibility check in Silktide.
 ### Findings:
    + All four pages had a contrast error, stemming from my selected green accent color.
 
-# Media, motion, and alternatives: 
+# Media, motion, and alternatives 
 ## Image purpose: Manually tested.
-Reviewed images to ensure that they 
+Reviewed HTML to ensure that all images are either contained in a <picture> tag, an <img> tag, <svg> tag, or a <figure> tag depending on their function.
 ### Findings:
   + Index Page: None.
   + Work Page: None.
