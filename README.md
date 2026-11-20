@@ -131,13 +131,15 @@ The only fallback links I have are font fallbacks. I tested my font fallbacks by
  + While I was performing this test, I realized that, while my fallbacks are working, there is something wrong with my @font-face property, because my fallback fonts are appearing instead of my chosen fonts      across all four pages. 
 
 # Screen reader or accessibility-tree sampling: 
-I performed screen reader sampling on my Work Page, because I want all users to be able to understand and comprehend my work. I used Silktide to listen to the pages captions. 
-sample at least one page or component and document what was checked and what the limits of that sample are.
+I performed screen reader sampling on my Work Page, because I want all users to be able to understand and comprehend my work. I used Silktide to listen to the pages captions. I found that the screen reader only reads my first figure's fig caption, and then does not read the rest of the image captions, because they have all the same text. I would prefer the screen reader to read my alt text instead, so that even users with screen readers can have a clear idea of what the image in my figure looks like.
+
+The limits of this sample is that my figcaptions currently contain filler text, so this does not accurately reflect the typical function of the website, and also that Silktide is one screen reader. Another screen reader or screen reading software might read this page differently, or it might encounter unexpected issues.
 
 # Remediation log: 
 See .txt file.
 
 # Conformance summary: 
+The following fields appear to conform:
 
 summarize what appears to conform, what was fixed, what remains limited, and what should be checked again before final release.
 
