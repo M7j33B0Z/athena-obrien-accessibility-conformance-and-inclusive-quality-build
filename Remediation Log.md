@@ -110,27 +110,33 @@ Remediation Log
 
 
 
-**Finding 5 :** Index Page - A warning. "Section lacks heading" (Line 36).
+**Finding 5 :** Index Page - A warning. "Section lacks heading" (Line 35). The section containing information about me is not labeled with a heading, so screen readers will skip directly from my image to reading content with no transition.
 
 
 
-**Evidence:**
+**Evidence**: According to this MDN article (**https://developer.mozilla.org/en-US/docs/Learn\_web\_development/Core/Structuring\_content/Headings\_and\_paragraphs#:\~:text=Giving%20content%20structure,-Let%27s%20jump%20straight%20in)**
 
 
 
-**Impact:**
+"A common navigation technique for users of screen reading software is to quickly jump from heading to heading in order to determine the content of the page. Because of this, it is important to not skip one or more heading levels."
 
 
 
-**Priority:**
+**Impact:** This might cause confusion for users with screen readers, because it makes the content on my index page difficult to follow.
 
 
 
-**Fix:**
+**Priority:** High priority. It causes an accessibility issue and impedes users' ability to understand the content of my website.
 
 
 
-**Retest Result:**
+**Fix:** I added an h2 called "About Me" to the section, so that screen readers can transition between the two sections of content more smoothly.
+
+
+
+**Retest Result:** A header appeared on my page, resolving the WC3 Validation Error. This change did not break my layout.
+
+
 
 
 
