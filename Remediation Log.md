@@ -14,7 +14,7 @@ Remediation Log
 
 
 
-**Impact:** Because lines 25 and 26 contain two sections back to back, this has the possibility to create confusion for  users accessing the website with screen readers. 
+**Impact:** Because lines 25 and 26 contain two sections back to back, this has the possibility to create confusion for users accessing the website with screen readers. 
 
 
 
@@ -30,6 +30,10 @@ Remediation Log
 
 
 
+**+++++**
+
+
+
 **Finding 2 :** All Pages - Nav lacks accessible text. The nav section on all four of my pages lacks an aria-label.
 
 
@@ -42,7 +46,7 @@ Remediation Log
 
 
 
-**Impact:** This impacts users wth assistive technology, because items without accessible names may be confusing or unclear for users with screen readers.
+**Impact:** This impacts users with assistive technology, because items without accessible names may be confusing or unclear for users with screen readers.
 
 
 
@@ -55,6 +59,10 @@ Remediation Log
 
 
 **Retest Result:** The error did not resolve. Instead, a warning appeared in my WC3 validator that adding a role and an aria-label was unnecessary. I removed the modification. This area is subject to further testing, and the error has been deferred.
+
+
+
+**+++++**
 
 
 
@@ -78,11 +86,15 @@ Remediation Log
 
 
 
-**Fix:**
+**Fix:** I changed the text color of my nav links from --background-color to --text-color.
 
 
 
-**Retest Result:**
+**Retest Result:** A new test generated a ratio of 7.52 : 1, a passing ratio.
+
+
+
+**+++++**
 
 
 
@@ -90,23 +102,45 @@ Remediation Log
 
 
 
-**Evidence:**
+**Evidence:** This MDN Article () contains an example of a @font-face stack: 
+
+@font-face {
+
+&#x20; font-family: "zantrokeregular";
+
+&#x20; src: url("fonts/zantroke-webfont.woff2") format("woff2");
+
+&#x20; font-weight: normal;
+
+&#x20; font-style: normal;
+
+&#x20; font-display: swap;
+
+}
 
 
 
-**Impact:**
+I believe the issue here is my missing format element in the src.
 
 
 
-**Priority:**
+**Impact:** This is potentially concerning when it comes to my layout and reflow choices. Because the font being displayed does not accurately reflect the font that should be displayed, it may break my layout.
 
 
 
-**Fix:**
+**Priority:** Low priority. It does not affect the legibility of my website.
 
 
 
-**Retest Result:**
+**Fix:** I added the format property to my src.
+
+
+
+**Retest Result:** This did not remediate the issue. I removed the format property, and tried adding and removing other properties, such as font-display, and font-style. These fixes failed. This issue has been deferred, and is subject to further testing.
+
+
+
+**+++++**
 
 
 
@@ -135,10 +169,4 @@ Remediation Log
 
 
 **Retest Result:** A header appeared on my page, resolving the WC3 Validation Error. This change created a formatting issue, which will have to be addressed.
-
-
-
-
-
-
 
