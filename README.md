@@ -8,6 +8,9 @@ I tested all four of my pages: my home page, my work page, my resume page, and m
 ## Native HTML: Tested using WC3 Validation
 ### Findings:
    + Index page: "Section Lacks Heading" warnings for lines 25, 26, and 35.
+   + Work Page: None.
+   + Resume Page: "Section Lacks Heading" warnings for lines 23 and 24.
+   + Contact Page: "Section Lacks Heading" warnings for lines 23, 24, 26, and 36.
    + Spelling errors across all pages due to filler text, which will be replaced.
 
 ## Page Titles: Manually Tested
