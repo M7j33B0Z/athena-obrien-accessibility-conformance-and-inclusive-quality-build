@@ -58,7 +58,7 @@ Remediation Log
 
 
 
-**Finding 3 :** All Pages - contrast error with green accent color. Silktide has noted that my green areas fail their contrast check when paired with white text, generating a ratio of .
+**Finding 3 :** All Pages - contrast error with green accent color. Silktide has noted that my green navigation buttons fail their contrast check when paired with white text, generating a ratio of 2.24:1 / 3:1.
 
 
 
@@ -70,11 +70,11 @@ Remediation Log
 
 
 
-**Impact:** This issue impacts a portion of users who might be visually impaired or color blind. It affects their ability to read the website's content and navigate the website itself.
+**Impact:** This issue impacts a portion of users who might be visually impaired or color blind. It affects their ability to navigate the website itself.
 
 
 
-**Priority:** High priority. This issue not only prevents users from understanding and navigating my website, it also prevents them from accessing the content of the website.
+**Priority:** High priority. This issue prevents users from navigating my website.
 
 
 
@@ -134,7 +134,7 @@ Remediation Log
 
 
 
-**Retest Result:** A header appeared on my page, resolving the WC3 Validation Error. This change did not break my layout.
+**Retest Result:** A header appeared on my page, resolving the WC3 Validation Error. This change created a formatting issue, which will have to be addressed.
 
 
 

@@ -25,6 +25,7 @@
 
 :root {
         --background-color: #ede6d3;
+        --buttons-txt: #411900;
         --text-color: #000000;
         --header-footer-buttons: #FFA30D;
         --hero-card-nav:#3AB055;
@@ -119,7 +120,7 @@
     a {
         font-family: var(--subhead-and-body);
         font-weight: var(--body-weight);
-        color: var(--background-color);
+        color: var(--buttons-txt);
         text-decoration: none;
 
         background-color: var(--hero-card-nav);
