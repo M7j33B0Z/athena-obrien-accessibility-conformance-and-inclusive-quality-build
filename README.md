@@ -103,7 +103,7 @@ Ran an Accessibility check in Silktide.
 
 # Media, motion, and alternatives 
 ## Image purpose: Manually tested.
-Reviewed HTML to ensure that all images are either contained in a <picture> tag, an <img> tag, <svg> tag, or a <figure> tag depending on their function.
+Reviewed HTML to ensure that all images are either contained in a picture tag, an img tag, svg tag, or a figure tag depending on their function.
 ### Findings:
   + Index Page: None.
   + Work Page: None.
@@ -136,7 +136,6 @@ sample at least one page or component and document what was checked and what the
 
 # Remediation log: 
 See .txt file.
-document at least five findings with issue, evidence, impact, priority, fix, and retest result.
 
 # Conformance summary: 
 
