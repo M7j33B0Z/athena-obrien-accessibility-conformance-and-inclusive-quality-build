@@ -30,29 +30,57 @@ Remediation Log
 
 
 
-**Finding 2 :** All Pages - Nav lacks accessible text.
+**Finding 2 :** All Pages - Nav lacks accessible text. The nav section on all four of my pages lacks an aria-label.
 
-**Evidence:**
 
-**Impact:**
 
-**Priority:**
+**Evidence:** According to this MDN article (**https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding\_WCAG/Text\_labels\_and\_names**)
+
+
+
+"If an element is intended for users to interact with it, it should have a label. Interactive elements include links (<a>), form elements, buttons, and any element that has a handler for mouse or keyboard events."
+
+
+
+**Impact:** This impacts users wth assistive technology, because items without accessible names may be confusing or unclear for users with screen readers.
+
+
+
+**Priority:** High Priority, because it creates an accessibility issue and might make it difficult for users with screen readers to navigate the website.
+
+
+
+**Fix:** I placed role and aria label tags inside my <nav>.
+
+
+
+**Retest Result:** The error did not resolve. Instead, a warning appeared in my WC3 validator that adding a role and an aria-label was unnecessary. I removed the modification. This area is subject to further testing, and the error has been deferred.
+
+
+
+**Finding 3 :** All Pages - contrast error with green accent color. Silktide has noted that my green areas fail their contrast check when paired with white text, generating a ratio of .
+
+
+
+**Evidence:** According to this MDN article **(https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding\_WCAG/Perceivable/Color\_contrast)**
+
+
+
+**"**The color contrast between background and foreground content (that is, usually text) should be great enough to ensure legibility." 
+
+
+
+**Impact:** This issue impacts a portion of users who might be visually impaired or color blind. It affects their ability to read the website's content and navigate the website itself.
+
+
+
+**Priority:** High priority. This issue not only prevents users from understanding and navigating my website, it also prevents them from accessing the content of the website.
+
+
 
 **Fix:**
 
-**Retest Result:**
 
-
-
-**Finding 3 :** All Pages - contrast error with green accent color.
-
-**Evidence:**
-
-**Impact:**
-
-**Priority:**
-
-**Fix:**
 
 **Retest Result:**
 
@@ -60,13 +88,23 @@ Remediation Log
 
 **Finding 4 :** @font-face functioning incorrectly. My fallback fonts are appearing instead of my chosen fonts.
 
+
+
 **Evidence:**
+
+
 
 **Impact:**
 
+
+
 **Priority:**
 
+
+
 **Fix:**
+
+
 
 **Retest Result:**
 
@@ -74,13 +112,23 @@ Remediation Log
 
 **Finding 5 :** Index Page - A warning. "Section lacks heading" (Line 36).
 
+
+
 **Evidence:**
+
+
 
 **Impact:**
 
+
+
 **Priority:**
 
+
+
 **Fix:**
+
+
 
 **Retest Result:**
 
